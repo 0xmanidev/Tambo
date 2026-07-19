@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tambo</title>
+      <script type="module" crossorigin src="/assets/index-DaauBgPm.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-CJeHqFoq.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Tambo</h1>
+            <div id="currentNumber" class="current">--</div>
+            <div class="toolbar">
+                <button id="fullscreenBtn" title="Fullscreen">⛶</button>
+                <label for="themeSelect">Theme:</label>
+                <select id="themeSelect">
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                    <option value="catppuccin">Catppuccin</option>
+                    <option value="nord">Nord</option>
+                    <option value="tokyonight">Tokyo Night</option>
+                    <option value="onedark">One Dark</option>
+                    <option value="horizons">Horizons</option>
+                    <option value="hackclub">Hackclub</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button id="drawBtn">Draw a Number</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+            <div id="board" class="board"></div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+                <p id="progressText">0 / 90 Drawn</p>
+            </div>
+            <div class="history">
+                <h2>History</h2>
+                <div id="historyList" class="historyList"></div>
+            </div>
+            <footer class="footer">
+                made with ❤︎⁠ by
+                <a
+                    href="https://github.com/0xmanidev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >0xmanidev</a
+                >
+            </footer>
+        </div>
+    </body>
+</html>
