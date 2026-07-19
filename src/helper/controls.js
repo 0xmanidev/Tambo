@@ -8,7 +8,7 @@ export function setupControls() {
     document.getElementById("drawBtn").onclick = () => {
         const number = drawNumber();
 
-        if (number == null) {
+        if (number === null) {
             alert("All numbers have been drawn!");
             return;
         }

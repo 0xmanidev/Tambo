@@ -8,7 +8,7 @@ export function createBoard() {
 
         div.className = "cell";
 
-        div.id = "cell-" + i;
+        div.id = `cell-${  i}`;
 
         div.textContent = i;
 
@@ -21,7 +21,7 @@ export function markNumber(number) {
         cell.classList.remove("latest");
         cell.classList.add("drawn");
     });
-    document.getElementById("cell-" + number).classList.add("latest");
+    document.getElementById(`cell-${  number}`).classList.add("latest");
 }
 export function clearBoard() {
     document.querySelectorAll(".cell").forEach((cell) => {
