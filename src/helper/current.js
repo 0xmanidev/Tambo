@@ -1,11 +1,11 @@
 const display = document.getElementById("currentNumber");
-export function updateCurrent(number){
+export function updateCurrent(number) {
     display.textContent = number;
     display.classList.add("animate");
-    setTimeout(()=>{
+    setTimeout(() => {
         display.classList.remove("animate");
-    },300);
+    }, 300);
 }
-export function resetCurrent(){
+export function resetCurrent() {
     display.textContent = "--";
 }
