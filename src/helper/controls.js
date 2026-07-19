@@ -1,8 +1,8 @@
-import { drawNumber, resetGame } from "src/helper/game.js";
-import { markNumber, clearBoard } from "src/helper/board.js";
-import { addHistory, clearHistory } from "src/helper/history.js";
-import { updateCurrent, resetCurrent } from "src/helper/current.js";
-import { updateProgress } from "src/helper/progress.js";
+import { drawNumber, resetGame } from "./game.js";
+import { markNumber, clearBoard } from "./board.js";
+import { addHistory, clearHistory } from "./history.js";
+import { updateCurrent, resetCurrent } from "./current.js";
+import { updateProgress } from "./progress.js";
 
 export function setupControls() {
     document.getElementById("drawBtn").onclick = () => {
