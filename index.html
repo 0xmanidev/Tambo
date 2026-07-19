@@ -8,9 +8,18 @@
     <link href="src/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <h1 class="title">Tambo</h1>
       <div id="currentNumber" class="current">--</div>
+      <div class="container">
+      <h1 class="title">Tambo</h1>
+      <div class="toolbar">
+        <label for="themeSelect">Theme:</label>
+          <select id="themeSelect">
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="catpppuccin">catppuccin</option>
+            <option value="nord">nord</option>
+          </select>
+      </div>
       <div class="buttons">
         <button  id="drawBtn">Draw a Number</button>
         <button id="resetBtn">Reset</button>
