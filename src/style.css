@@ -1,3 +1,35 @@
+:root{
+  --bg:#111;
+  --surface:#222;
+  --surface2:#444;
+  --text:#fff;
+  --accent:#00aa55;
+  --accentText:#fff;
+}
+body.light{
+  --bg:#f3f4f6;
+  --surface:#ffffff;
+  --surface2:#d1d5db;
+  --text:#111827;;
+  --accent:#22c55e;
+  --accentText:#fff;
+}
+body.catppuccin{
+  --bg:#1e1e2e;
+  --surface:#313244;
+  --surface2:#45475a;
+  --text:#cdd6f4;
+  --accent:#a6e3a1;
+  --accentText:#1e1e2e;
+}
+body.nord{
+  --bg:#2e3440;
+  --surface:#3b4252;
+  --surface2:#4c566a;
+  --text:#eceff4;
+  --accent:#88c0d0;
+  --accentText:#2e3440;
+}
 *{
 margin:0;
 padding:0;
