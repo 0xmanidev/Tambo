@@ -39,6 +39,50 @@ body.nord{
   --latest:#ebcb8b;
   --latestText:#2e3440;
 }
+body.tokyonight{
+  --bg:#1a1b26;
+  --surface:#24283b;
+  --surface2:#414868;
+  --text:#c0caf5;
+  --accent:#7aa2f7;
+  --accentText:#1a1b26;
+  --latest:#e0af68;
+  --latestText:#1a1b26;
+}
+
+body.onedark{
+  --bg:#282c34;
+  --surface:#21252b;
+  --surface2:#3b4048;
+  --text:#abb2bf;
+  --accent:#61afef;
+  --accentText:#282c34;
+  --latest:#e5c07b;
+  --latestText:#282c34;
+}
+
+body.horizons{
+  --bg:#f4efe5;
+  --surface:#fbf8f2;
+  --surface2:#d9cbb8;
+  --text:#101010;
+  --accent:#3d3f7d;
+  --accentText:#ffffff;
+  --latest:#ef5b93;
+  --latestText:#ffffff;
+}
+
+body.hackclub{
+  --bg:#1d1c22;
+  --surface:#2a2930;
+  --surface2:#3a3841;
+  --text:#f2f2f2;
+  --accent:#f23350;
+  --accentText:#ffffff;
+  --latest:#59b3d0;
+  --latestText:#ffffff;
+}
+
 *{
 margin:0;
 padding:0;
