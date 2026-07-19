@@ -17,11 +17,17 @@ export function createBoard(){
 }
 
 export function markNumber(number){
+    document.querySelectorAll(".latest").forEach(cell=>{
+        cell.classList.remove("latest");
+        cell.classList.add("drawn");
+    });
     document
     .getElementById("cell-" + number)
-    .classList.add("drawn");
+    .classList.add("latest");
 }
 export function clearBoard(){
     document.querySelectorAll(".cell")
-    .forEach(c => c.classList.remove("drawn"));
+    .forEach(cell=>{
+        cell.classList.remove("drawn","latest");
+    });
 }

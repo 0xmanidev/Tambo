@@ -5,6 +5,9 @@
   --text:#fff;
   --accent:#00aa55;
   --accentText:#fff;
+
+  --latest:#f59e0b;
+  --latestText:#111;
 }
 body.light{
   --bg:#f3f4f6;
@@ -13,6 +16,8 @@ body.light{
   --text:#111827;;
   --accent:#22c55e;
   --accentText:#fff;
+  --latest:#f59e0b;
+  --latestText:#111827;
 }
 body.catppuccin{
   --bg:#1e1e2e;
@@ -21,6 +26,8 @@ body.catppuccin{
   --text:#cdd6f4;
   --accent:#a6e3a1;
   --accentText:#1e1e2e;
+  --latest:#f9e2af;
+  --latestText:#1e1e2e;
 }
 body.nord{
   --bg:#2e3440;
@@ -29,6 +36,8 @@ body.nord{
   --text:#eceff4;
   --accent:#88c0d0;
   --accentText:#2e3440;
+  --latest:#ebcb8b;
+  --latestText:#2e3440;
 }
 *{
 margin:0;
@@ -130,6 +139,10 @@ color:var(--text);
 .drawn{
 background:var(--accent);
 color:var(--accentText);
+}
+.latest{
+  background:var(--latest);
+  color:var(--latestText);
 }
 
 .progress-container{
