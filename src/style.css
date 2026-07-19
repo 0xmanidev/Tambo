@@ -190,7 +190,7 @@ pointer-events:none;
 }
 #themeSelect:focus{
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb ,var(--accent) 30%,tranparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb ,var(--accent) 30%,transparent);
 }
 #themeSelect option{
   background:var(--surface);
